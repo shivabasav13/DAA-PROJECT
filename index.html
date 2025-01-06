@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Management Team Contributions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+    .container {
+      width: 90%;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+    }
+    .team-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+    .team-member {
+      background: #ffffff;
+      width: 30%;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+    .team-member:hover {
+      transform: scale(1.05);
+    }
+    h2 {
+      color: #007bff;
+      text-align: center;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+      color: #333;
+      font-size: 16px;
+    }
+    .complexity {
+      font-style: italic;
+      color: #555;
+    }
+    @media (max-width: 768px) {
+      .team-member {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hospital Management Project Team Contributions</h1>
+    <div class="team-container">
+      <!-- Shivabasav's Work -->
+      <div class="team-member">
+        <h2>Shivabasav</h2>
+        <ul>
+          <li>Implemented <b>patient record management</b> using efficient data structures. <span class="complexity">(Time: O(1), Space: O(n))</span></li>
+          <li>Developed <b>emergency patient priority queue</b>. <span class="complexity">(Time: O(log n), Space: O(n))</span></li>
+          <li>Integrated <b>search functionality</b> for patients by ID or name. <span class="complexity">(Time: O(1))</span></li>
+        </ul>
+      </div>
+
+      <!-- Vignesh's Work -->
+      <div class="team-member">
+        <h2>Vignesh</h2>
+        <ul>
+          <li>Created <b>discharge and admission date updater</b>. <span class="complexity">(Time: O(n), Space: O(n))</span></li>
+          <li>Optimized the <b>display of all patient records</b>. <span class="complexity">(Time: O(1), Space: O(n))</span></li>
+          <li>Handled <b>resource allocation</b> for wards and ambulances. <span class="complexity">(Time: O(1), Space: O(1))</span></li>
+        </ul>
+      </div>
+
+      <!-- Sampad's Work -->
+      <div class="team-member">
+        <h2>Sampad</h2>
+        <ul>
+          <li>Developed <b>medical billing system</b> for generating bills based on patient data. <span class="complexity">(Time: O(n), Space: O(n))</span></li>
+          <li>Designed a module to <b>display insurance statistics</b>. <span class="complexity">(Time: O(n), Space: O(n))</span></li>
+          <li>Optimized <b>data visualization</b> for hospital resources.</li>
+        </ul>
+      </div>
+
+      <!-- Vijetha's Work -->
+      <div class="team-member">
+        <h2>Vijetha</h2>
+        <ul>
+          <li>Assigned <b>staff to patients</b> using dynamic allocation algorithms. <span class="complexity">(Time: O(n), Space: O(n))</span></li>
+          <li>Developed <b>parking and ambulance status tracker</b>. <span class="complexity">(Time: O(1), Space: O(1))</span></li>
+          <li>Designed user-friendly <b>UI for staff assignment module</b>.</li>
+        </ul>
+      </div>
+
+      <!-- Anup's Work -->
+      <div class="team-member">
+        <h2>Anup</h2>
+        <ul>
+          <li>Implemented <b>emergency patient processing system</b>. <span class="complexity">(Time: O(log n), Space: O(n))</span></li>
+          <li>Handled <b>database integration</b> for patient records. <span class="complexity">(Time: O(n), Space: O(n))</span></li>
+          <li>Enhanced <b>real-time updates</b> for ambulance and parking statuses.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
