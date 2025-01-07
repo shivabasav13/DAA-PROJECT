@@ -1,121 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hospital Management Team Contributions</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f8f9fa;
-    }
-    .container {
-      width: 90%;
-      margin: 30px auto;
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
-      color: #333;
-      margin-bottom: 30px;
-    }
-    .team-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      gap: 20px;
-    }
-    .team-member {
-      background: #ffffff;
-      width: 30%;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      transition: transform 0.2s;
-    }
-    .team-member:hover {
-      transform: scale(1.05);
-    }
-    h2 {
-      color: #007bff;
-      text-align: center;
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    li {
-      margin-bottom: 10px;
-      color: #333;
-      font-size: 16px;
-    }
-    .complexity {
-      font-style: italic;
-      color: #555;
-    }
-    @media (max-width: 768px) {
-      .team-member {
-        width: 100%;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Hospital Management Project Team Contributions</h1>
-    <div class="team-container">
-      <!-- Shivabasav's Work -->
-      <div class="team-member">
-        <h2>Shivabasav</h2>
-        <ul>
-          <li>Implemented <b>patient record management</b> using efficient data structures. <span class="complexity">(Time: O(1), Space: O(n))</span></li>
-          <li>Developed <b>emergency patient priority queue</b>. <span class="complexity">(Time: O(log n), Space: O(n))</span></li>
-          <li>Integrated <b>search functionality</b> for patients by ID or name. <span class="complexity">(Time: O(1))</span></li>
-        </ul>
-      </div>
+    <header>
+        <h1>Project Portfolio</h1>
+    </header>
 
-      <!-- Vignesh's Work -->
-      <div class="team-member">
-        <h2>Vignesh</h2>
-        <ul>
-          <li>Created <b>discharge and admission date updater</b>. <span class="complexity">(Time: O(n), Space: O(n))</span></li>
-          <li>Optimized the <b>display of all patient records</b>. <span class="complexity">(Time: O(1), Space: O(n))</span></li>
-          <li>Handled <b>resource allocation</b> for wards and ambulances. <span class="complexity">(Time: O(1), Space: O(1))</span></li>
-        </ul>
-      </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="page2.html">Team Members</a>
+        <a href="page3.html">Project Introduction</a>
+        <a href="page4.html">Functionality Table</a>
+        <a href="page5.html">Efficiency Analysis</a>
+        <a href="page6.html">Code</a>
+        <a href="page7.html">Team Contributions</a>
+    </nav>
 
-      <!-- Sampad's Work -->
-      <div class="team-member">
-        <h2>Sampad</h2>
-        <ul>
-          <li>Developed <b>medical billing system</b> for generating bills based on patient data. <span class="complexity">(Time: O(n), Space: O(n))</span></li>
-          <li>Designed a module to <b>display insurance statistics</b>. <span class="complexity">(Time: O(n), Space: O(n))</span></li>
-          <li>Optimized <b>data visualization</b> for hospital resources.</li>
-        </ul>
-      </div>
+    <main>
+        <section>
+            <h2>About the Course</h2>
+            <p>This course teaches:</p>
+            <ul>
+                <li>Techniques for developing efficient algorithms.</li>
+                <li>Methods to evaluate algorithm performance using time and space complexity.</li>
+                <li>Advanced concepts like dynamic programming, greedy algorithms, divide and conquer, backtracking, and graph algorithms.</li>
+                <li>Applications of algorithms in solving real-world problems and exploring computational limitations.</li>
+            </ul>
+        </section>
 
-      <!-- Vijetha's Work -->
-      <div class="team-member">
-        <h2>Vijetha</h2>
-        <ul>
-          <li>Assigned <b>staff to patients</b> using dynamic allocation algorithms. <span class="complexity">(Time: O(n), Space: O(n))</span></li>
-          <li>Developed <b>parking and ambulance status tracker</b>. <span class="complexity">(Time: O(1), Space: O(1))</span></li>
-          <li>Designed user-friendly <b>UI for staff assignment module</b>.</li>
-        </ul>
-      </div>
+        <section>
+            <h2>Data Structures and Algorithms Studied</h2>
+            <h3>Key Data Structures:</h3>
+            <ul>
+                <li>Arrays, linked lists, stacks, and queues for fundamental operations.</li>
+                <li>Trees (binary, AVL, B-trees) and graphs for hierarchical and network representations.</li>
+                <li>Hash tables for efficient searching and mapping.</li>
+                <li>Heaps for priority-based operations.</li>
+            </ul>
+            <h3>Key Algorithms:</h3>
+            <ul>
+                <li>Sorting algorithms like Quick Sort, Merge Sort, and Heap Sort.</li>
+                <li>Searching algorithms such as Binary Search.</li>
+                <li>Graph algorithms like Dijkstra’s, Kruskal’s, and Prim’s for shortest paths and minimum spanning trees.</li>
+                <li>Divide and Conquer for optimization problems.</li>
+                <li>Dynamic Programming for complex problem-solving.</li>
+            </ul>
+        </section>
 
-      <!-- Anup's Work -->
-      <div class="team-member">
-        <h2>Anup</h2>
-        <ul>
-          <li>Implemented <b>emergency patient processing system</b>. <span class="complexity">(Time: O(log n), Space: O(n))</span></li>
-          <li>Handled <b>database integration</b> for patient records. <span class="complexity">(Time: O(n), Space: O(n))</span></li>
-          <li>Enhanced <b>real-time updates</b> for ambulance and parking statuses.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
+        <section>
+            <h2>Real-Time Applications</h2>
+            <p>The principles learned in this course are directly applicable to real-world scenarios:</p>
+            <ul>
+                <li><strong>Pathfinding and Navigation:</strong> Graph algorithms are used in GPS systems for finding the shortest route.</li>
+                <li><strong>Data Compression:</strong> Algorithms like Huffman coding are vital for efficient data storage and transmission.</li>
+                <li><strong>E-commerce:</strong> Sorting and searching algorithms optimize product listings and user queries.</li>
+                <li><strong>Scheduling and Resource Allocation:</strong> Dynamic programming helps in airline ticket pricing and project management.</li>
+                <li><strong>Cryptography and Security:</strong> Algorithms play a crucial role in secure data transmission.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Project Portfolio</p>
+    </footer>
 </body>
 </html>
+
